@@ -32,7 +32,7 @@ spec:
           name: ts-config
       containers:
       - name: migration
-        image: iemafzal/easyshop-migration:9
+        image: arnab23/easyshop-migration:latest
         envFrom:
           - configMapRef:
               name: easyshop-config
